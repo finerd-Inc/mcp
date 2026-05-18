@@ -1,0 +1,12 @@
+{
+  "name": "finerd",
+  "version": "0.1.0",
+  "description": "Finerd personal finance assistant. Query your transactions, accounts, categories, and merchants in natural language.",
+  "mcpServers": {
+    "finerd": {
+      "httpUrl": "https://api.finerd.ai/mcp",
+      "authProviderType": "dynamic_discovery",
+      "timeout": 30000
+    }
+  }
+}
