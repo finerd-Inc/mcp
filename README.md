@@ -12,13 +12,42 @@ On first use, Gemini will open your browser for a one-time OAuth login at `api.f
 
 ## Tools
 
+### Browse
+
 | Tool | Description |
 |------|-------------|
+| `list_spaces` | List your spaces (families/households) |
+| `list_accounts` | List financial accounts with balances |
+| `list_categories` | List expense and income categories |
+| `list_bills` | List recurring bills and subscriptions |
+| `get_bill` | Get full bill details |
 | `search_transactions` | Search transactions by date, category, account, or text |
 | `get_transaction` | Full transaction details with per-account journal entries |
-| `list_categories` | List expense and income categories |
-| `list_accounts` | List financial accounts with balances |
 | `search_merchants` | Search merchants by name |
+| `search_tags` | Search tags by name |
+| `get_account_balances` | Current balances across accounts |
+
+### Reports
+
+| Tool | Description |
+|------|-------------|
+| `get_expense_report` | Expenses by category over a period |
+| `get_income_report` | Income by source over a period |
+| `get_cashflow_report` | Net cash flow over a period |
+| `get_networth_report` | Net worth trend over time |
+
+### Write
+
+| Tool | Description |
+|------|-------------|
+| `create_transaction` | Add a new transaction |
+| `create_complex_transaction` | Add a multi-leg transaction (splits, multi-account) |
+| `create_transfer` | Record a transfer between accounts |
+| `update_transaction` | Edit an existing transaction |
+| `delete_transaction` | Delete a transaction |
+| `mark_transaction_reviewed` | Mark a transaction as reviewed |
+| `create_tag` | Create a new tag |
+| `update_tag` | Rename or recolor a tag |
 
 `search_transactions` returns a lightweight list. Use `get_transaction` with an ID from the results for full per-account amounts, currencies, categories, and tags.
 
