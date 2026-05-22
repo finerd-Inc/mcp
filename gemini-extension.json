@@ -1,7 +1,12 @@
 {
+  "$schema": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/packages/cli/schemas/gemini-extension.json",
   "name": "finerd",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Finerd personal finance assistant. Query your transactions, accounts, categories, and merchants in natural language.",
+  "author": "Finerd Inc.",
+  "license": "MIT",
+  "homepage": "https://finerd.ai",
+  "sourceUrl": "https://github.com/finerd-Inc/mcp",
   "mcpServers": {
     "finerd": {
       "httpUrl": "https://api.finerd.ai/mcp",
